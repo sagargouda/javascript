@@ -24,4 +24,4 @@ Javascript engine and runtime
 1. Js engine is a program that executes js code ,
    js engine has call stack and heap
 
-2) call stack is where our code is excuted and heap is where objects are stored
+2. call stack is where our code is excuted and heap is where objects are stored
