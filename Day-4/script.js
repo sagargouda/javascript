@@ -168,3 +168,16 @@ const restaurant = {
 // const sagar = [1, 2, [2, 3]];
 // const [x, y, [z, c]] = sagar;
 // console.log(x, y, z, c);
+
+// let a = 90;
+// let b = 1900;
+// let obj = {
+//   a: 34,
+//   b: 23,
+// };
+// ({ a, b } = obj);
+// console.log(a, b);
+
+// let [x, y] = [1, 2, 3];
+// [y, x] = [x, y];
+// console.log(x, y);

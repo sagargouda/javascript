@@ -11,7 +11,7 @@
 let a = 11;
 let b = 22;
 const obj = { a: 23, b: 34, c: 34 };
-//\*_You can't do const becauise a and b are already declared and you can't do const {a,b} _/
+//_You can't do const becauise a and b are already declared and you can't do const {a,b} _/
 // we overrided it so use () because when you use {}, js wants code blocks so it gives error
 ({ a, b } = obj);
 console.log(a, b);
@@ -60,3 +60,19 @@ Function arguments (when calling a function)
 In an array or object, on the right side of a destructuring assignment (to be assigned to the variables on the left side of the assignment operator).
 
 15. "Where we want to write some variables name, let's use rest" and "Where we want to write a list of values, one by one separated by commas, let's use spread")
+
+14) '' = falsy , ' '=truthy
+
+15) //?? all falsy values
+    // udefined , null , '',
+    //?? truthy values
+    //' '
+
+16) Shallow Copy: Creates a new array or object, but the elements or properties inside it still reference the same elements or objects as the original.
+    Deep Copy: Creates a completely independent copy of the original array or object, so changes in the copied one do not affect the original.
+
+17)Object Shallow Copy: Uses the spread operator ({...originalObject}) to create a shallow copy of an object. 18) Object Deep Copy: Utilizes JSON.parse(JSON.stringify()) to create a deep copy of an object.
+
+18. stringfy = converts js object to json string
+
+19. parse = json string to js object
