@@ -76,3 +76,34 @@ In an array or object, on the right side of a destructuring assignment (to be as
 18. stringfy = converts js object to json string
 
 19. parse = json string to js object
+
+20) entries method is used with iterable object such as arrays to get an iterator with key value paiures
+
+21) object litral is normal wway of doing object thing but enhanced object literal means es6 addditonl feature
+    i) adding objects inside objects by just mentioning name of it
+    example = rest ={
+    openingHours,
+    }
+    ii) wriitng methods order: function(){
+
+}
+new way order(){}
+iii)
+const sagar = [1,2,3,4];
+const number = {
+[sagar[1]]:{
+
+    }
+    [sagar[2]]:{
+
+    }
+
+}
+
+22. new feature of arrays and objects optional chaining
+
+23) set and map data structure
+24) set is just an collection of unique elements , to craete an set we use new set and we pass an iterabvle
+25) we don't have index in set , there is no need to retrive data from set
+26) map is ds that we use to map values to keys , just like in objects
+27) in maps keys be of any type but inh objects it's just strings
